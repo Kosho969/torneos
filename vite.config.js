@@ -5,5 +5,4 @@ export default defineConfig({
   plugins: [vue()],
   base: './',
   server: { host: true },
-  optimizeDeps: { exclude: ['sql.js'] },
 })
